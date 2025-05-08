@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+.custom-btn {
+  @apply hover:scale-105 text-base-content font-medium hover:shadow-lg px-4 py-2  w-full text-start rounded-2xl btn-primary  hover:bg-primary/70 transition-all duration-300;
+}
